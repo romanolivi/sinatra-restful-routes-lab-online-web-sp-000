@@ -10,6 +10,7 @@
     <h2>Recipe Name: <%= @recipe.name %></h2>
     <p>Ingredients: <%= @recipe.ingredients %></p><br>
     <p>Cooking Time: <%= @recipe.cook_time %></p><br>
+    <a href="/recipes/<%= r.id %>"><%= r.name %></a>
     <% end %>
   </body>
 </html>
